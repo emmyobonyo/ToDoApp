@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# TO DO LIST
 
-> One paragraph statement about the project.
+> A simple app that will help a User manage their daily tasks smoothly.
 
 ![screenshot](./app_screenshot.png)
 
