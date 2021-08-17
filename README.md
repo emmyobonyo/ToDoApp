@@ -4,62 +4,40 @@
 
 > A simple app that will help a User manage their daily tasks smoothly.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screen.png)
 
-Additional description about the project and its features.
+- A User can add a Task.
+- A User cam mark a Task as completed by clicking a checkbox associated with that task.
+- A User can clear all finished tasks by clicking the ```clear``` button at the bottom of the list.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Javascript, HTML and CSS
+- Webpack
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://emmyobonyo.github.io/ToDoApp/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- In terminal, navigate to the directory on your computer where you'd like to store the files and then type this commmand ```git clone https://github.com/emmyobonyo/ToDoApp.git``` and wait for the files to clone.
+- Download ```npm``` and ```node modules``` to the root directory of the folder.
+- Run ```npm start``` in the root directory of your folder.
+- Enjoy awesomeness.
 
 ## Authors
 
-👤 **Author1**
+👤 **Emmanuel Obonyo**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/emmyobonyo)
+- Twitter: [@twitterhandle](https://twitter.com/emmyobonyo)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-obonyo-3728a2200/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -67,9 +45,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat Tip to [Microverse](https://www.microverse.org/) for the linters.
 
 ## 📝 License
 
