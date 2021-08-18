@@ -25,8 +25,8 @@ const rendered = () => {
     },
   ];
 
-  if (localStorage.length == 0) {
-    localStorage.setItem('tasks', JSON.stringify(tasks))
+  if (localStorage.length === 0) {
+    localStorage.setItem('tasks', JSON.stringify(tasks));
   }
   const getTasks = JSON.parse(localStorage.getItem('tasks'));
 
@@ -53,7 +53,7 @@ const rendered = () => {
     const icon = document.createElement('i');
     icon.className = 'fa fa-bars';
     p.innerHTML = getTasks[i].description;
-    if (getTasks[i].isCompleted){
+    if(getTasks[i].isCompleted){
       p.style.textDecoration = 'line-through';
       checkbox.checked = true;
     }
