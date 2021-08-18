@@ -15,11 +15,6 @@
 - Javascript, HTML and CSS
 - Webpack
 
-## Live Demo
-
-[Live Demo Link](https://emmyobonyo.github.io/ToDoApp/)
-
-
 ## Getting Started
 
 - In terminal, navigate to the directory on your computer where you'd like to store the files and then type this commmand ```git clone https://github.com/emmyobonyo/ToDoApp.git``` and wait for the files to clone.
