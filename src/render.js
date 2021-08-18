@@ -1,7 +1,4 @@
-// import { sorted } from './removeItem.js'
-
 const ul = document.getElementById('list-items');
-const div = document.getElementById('div');
 const button = document.getElementById('submit');
 
 const tasks = [
@@ -39,21 +36,20 @@ const rendered = () => {
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
     checkbox.onclick = () => {
-      if (checkbox.checked == true) {
+      if (checkbox.checked === true) {
         p.style.textDecoration = 'line-through';
         tasks[i].isCompleted = true;
         li.className = 'delete';
-        getTasks.splice(i,1);
-        localStorage.setItem('tasks', JSON.stringify(getTasks))
-      }
-      else {
+        getTasks.splice(i, 1);
+        localStorage.setItem('tasks', JSON.stringify(getTasks));
+      } else {
         p.style.textDecoration = 'none';
         tasks[i].isCompleted = false;
         li.className = 'undelete';
-        getTasks.splice(i,1);
+        getTasks.splice(i, 1);
         localStorage.setItem('tasks', JSON.stringify(getTasks));
       }
-    }
+    };
     const icon = document.createElement('i');
     icon.className = 'fa fa-bars';
     p.innerHTML = getTasks[i].description;
@@ -63,15 +59,15 @@ const rendered = () => {
     liDiv.appendChild(p);
     li.appendChild(icon);
   }
-}
+};
 
 const sort = () => {
   const hide = document.getElementsByClassName('delete');
-  for (let i = 0; i < hide.length; i++) {
+  for (let i = 0; i < hide.length; i += 1) {
     hide[i].style.display = 'none';
   }
-}
+};
 
-button.addEventListener('click', sort)
+button.addEventListener('click', sort);
 
 export { rendered as default };

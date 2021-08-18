@@ -1,5 +1,5 @@
 import './style.css';
-import rendered from './render';
+import rendered from './render.js';
 
 rendered();
 
