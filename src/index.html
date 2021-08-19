@@ -3,10 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+    <title>To Do List</title>
+    <script src="https://kit.fontawesome.com/8107cf6975.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>This is a development branch!</h1>
-    <p>Hello World!!</p>
+    <header>
+        <h2>Today's To Do</h2>
+        <i class="fa fa-refresh"></i>
+    </header>
+    <form class="form" id="form">
+        <input type="text" placeholder="Add a Task" id="title" class="input-text">
+        <i class="fa fa-sign-in"></i>
+    </form>
+    <div id="div">
+        <ul id="list-items"></ul>
+    </div>
+    <button type="submit" id="submit">Clear</button>
 </body>
 </html>
